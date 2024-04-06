@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+table {
+  margin-top: 100px;
+  border-collapse: collapse;
+  /* border: 2px solid grey; */
+}
+td,
+th {
+  /* border: 1px solid gray; */
+
+  padding: 16px 24px;
+  width: 25%;
+}
+.my-head {
+  background-color: rgb(27, 117, 27);
+  color: aliceblue;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(187, 187, 204, 0.281);
+}
+/* table tr:nth-child(3) {
+  background-color: aquamarine;
+} */
